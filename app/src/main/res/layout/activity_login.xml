@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="@dimen/padding"
+    android:background="@drawable/loginregister">
+
+    <TextView
+        android:id="@+id/txtJogjaTravelApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/jogja_travel"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nama"
+            android:inputType="textCapWords"
+            android:importantForAutofill="no"
+            android:background="@drawable/rect_edittext"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:importantForAutofill="no"
+            android:background="@drawable/rect_edittext"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtLupaPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lupaPassword"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:background="@drawable/rect_button"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnMasuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masuk"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtBuatAkun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/belumpunyaAkun"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

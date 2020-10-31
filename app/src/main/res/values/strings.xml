@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Pariwisata Jogja</string>
+
+    <!--Profile-->
+    <string name="profile_name">Muhammad Zuhri Anshari</string>
+    <string name="profile_job">Vlogger Pariwisata</string>
+    <string name="img_profile">img profile</string>
+
+    <string name="edit">Edit</string>
+
+    <string name="detail_information"><![CDATA[Detail Information >>]]></string>
+    <string name="destinasi_1">Pantai Parangtritis</string>
+    <string name="destinasi_2">Pantai Sadranan</string>
+    <string name="destinasi_3">Mangunan</string>
+
+    <string name="buat_akun_baru">Buat akun baru</string>
+    <string name="nikmati_alamnya_jogja_istimewa">Nikmati Alamnya Jogja Istimewa</string>
+    <string name="jogja_hadir_menemani_liburanmu">Jogja Hadir Menemani Liburanmu</string>
+    <string name="masuk">Masuk</string>
+    <string name="jogja_travel">Jogja Travel</string>
+
+    <string name="nama">Nama</string>
+    <string name="hint_nama">Muhammad Zuhri Anshari</string>
+    <string name="email">Email</string>
+    <string name="hint_email">pioneer@battistradadeveloper.com</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="hint_pekerjaan">Mahasiswa</string>
+    <string name="password">Password</string>
+    <string name="hint_password">******</string>
+
+    <string name="lupaPassword">Lupa Password? Klik disini</string>
+    <string name="belumpunyaAkun">Belum Memiliki Akun? Daftar disini</string>
+    <string name="daftar">Daftar</string>
+    <string name="punya_akun">Sudah Punya Akun?</string>
+
+    <string name="lokasi">Lokasi</string>
+    <string name="detail_lokasi">Jl. Parangtritis km 28, Yogyakarta 55188, Indonesia</string>
+    <string name="detail">Detail</string>
+    <string name="detail_deskripsi">Parangtritis is a popular tourist beach and village area on the
+        southern coast of Java in Bantul Regency within the province of
+        the Yogyakarta Special Region. There is a good road to the area which about 30km
+        south of the city of Yogyakarta, located just on the border between Bantul and Gunung Kidul
+        regencies</string>
+    <string name="keluar_aplikasi">Keluar Aplikasi</string>
+    <string name="help">Help</string>
+
+</resources>

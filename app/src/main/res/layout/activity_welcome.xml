@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:padding="@dimen/padding"
+    android:background="@drawable/splashscreen">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jogja_hadir_menemani_liburanmu"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_below="@id/txtWelcome"
+        android:layout_marginTop="100dp"
+        android:id="@+id/txtJogjaIstimewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nikmati_alamnya_jogja_istimewa"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_below="@id/txtJogjaIstimewa"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnMasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/masuk"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rect_button"/>
+    <TextView
+        android:id="@+id/txtNewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buat_akun_baru"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
